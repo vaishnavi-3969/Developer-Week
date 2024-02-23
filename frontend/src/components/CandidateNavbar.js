@@ -15,7 +15,7 @@ const CandidateNavbar = () => {
     return (
         <nav className="bg-gray-800 p-4">
             <div className="container mx-auto flex justify-between items-center">
-                <h1 className="text-white font-bold text-lg">CareerForge360 - Candidate Dashboard</h1>
+                <h1 className="text-white font-bold text-lg"><Link to="/">CareerForge360 - Candidate Dashboard</Link></h1>
                 <ul className="flex space-x-4">
                     <li><Link to="/candidate_dashboard" className="text-white hover:underline">Dashboard</Link></li>
                     <li><Link to="/candidate_jobs" className="text-white hover:underline">Browse Jobs</Link></li>
