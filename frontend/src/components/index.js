@@ -1,9 +1,11 @@
-import Navbar from "./Navbar";
 import MoveToTop from "./MoveToTop";
 import Footer from "./Footer";
+import CandidateNavbar from "./CandidateNavbar";
+import RecruiterNavbar from "./RecruiterNavbar";
 
 export {
-    Navbar,
     MoveToTop,
-    Footer
+    Footer,
+    CandidateNavbar,
+    RecruiterNavbar
 }
