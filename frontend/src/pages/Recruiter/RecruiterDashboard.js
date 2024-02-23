@@ -1,9 +1,12 @@
 import React from 'react'
+import { RecruiterNavbar } from '../../components'
 
 const RecruiterDashboard = () => {
-  return (
-    <div>RecruiterDashboard</div>
-  )
+    return (
+        <div>
+            <RecruiterNavbar />
+        </div>
+    )
 }
 
 export default RecruiterDashboard

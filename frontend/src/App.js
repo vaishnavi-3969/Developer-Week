@@ -1,7 +1,7 @@
 import { useSession } from '@descope/react-sdk';
 import { BrowserJobs, Candidate, CandidateDashboard, CandidateProfile, CompanyProfile, Home, JobPosts, Landing, MyApplications, Recruiter, RecruiterDashboard, ViewCandidates } from './pages';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Err, Footer } from './components';
+import { Err, Footer, MoveToTop } from './components';
 
 const App = () => {
   const { isAuthenticated } = useSession();
@@ -27,6 +27,7 @@ const App = () => {
           )}
           <Route path="*" element={<Err errorCode={404} />} />
         </Routes>
+        <MoveToTop/>
         {isAuthenticated && <Footer />}
       </Router>
     </div>

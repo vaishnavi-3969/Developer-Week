@@ -4,7 +4,7 @@ import { CandidateNavbar } from '../../components'
 const Candidate = () => {
   return (
     <div>
-    <CandidateNavbar/>
+      <CandidateNavbar />
     </div>
   )
 }

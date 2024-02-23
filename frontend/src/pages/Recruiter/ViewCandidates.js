@@ -1,8 +1,11 @@
 import React from 'react'
+import { RecruiterNavbar } from '../../components'
 
 const ViewCandidates = () => {
   return (
-    <div>ViewCandidates</div>
+    <div>
+    <RecruiterNavbar/>
+    </div>
   )
 }
 

@@ -1,8 +1,11 @@
 import React from 'react'
+import { RecruiterNavbar } from '../../components'
 
 const CompanyProfile = () => {
   return (
-    <div>CompanyProfile</div>
+    <div>
+    <RecruiterNavbar/>
+    </div>
   )
 }
 
