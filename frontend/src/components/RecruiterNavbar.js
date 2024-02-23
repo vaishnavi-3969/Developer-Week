@@ -17,10 +17,10 @@ const RecruiterNavbar = () => {
             <div className="container mx-auto flex justify-between items-center">
                 <h1 className="text-white font-bold text-lg">CareerForge360 - Recruiter Dashboard</h1>
                 <ul className="flex space-x-4">
-                    <li><Link to="/dashboard" className="text-white hover:underline">Dashboard</Link></li>
-                    <li><Link to="/jobs" className="text-white hover:underline">Manage Jobs</Link></li>
-                    <li><Link to="/candidates" className="text-white hover:underline">View Candidates</Link></li>
-                    <li><Link to="/profile" className="text-white hover:underline">Profile</Link></li>
+                    <li><Link to="/recruiter_dashboard" className="text-white hover:underline">Dashboard</Link></li>
+                    <li><Link to="/recruiter_jobs" className="text-white hover:underline">Manage Jobs</Link></li>
+                    <li><Link to="/recruiter_candidates" className="text-white hover:underline">View Candidates</Link></li>
+                    <li><Link to="/recruiter_profile" className="text-white hover:underline">Profile</Link></li>
                     <li><button onClick={handleLogout} className="text-white hover:underline">Logout</button></li>
                 </ul>
             </div>

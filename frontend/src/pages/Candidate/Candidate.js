@@ -1,5 +1,5 @@
 import React from 'react'
-import { CandidateNavbar } from '../components'
+import { CandidateNavbar } from '../../components'
 
 const Candidate = () => {
   return (
